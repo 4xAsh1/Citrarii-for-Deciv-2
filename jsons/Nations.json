@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Citrarii Group",
+        "leaderName": "Provisioning Director",
+        "adjective": ["Provisionary"],
+        "preferredVictoryType": "Domination",
+        "favoredReligion": "Capitalism",
+
+
+	"declaringWar": "You leave us no choice. War it must be.",
+	"attacked": "Very well, this shall not be forgotten.",
+	"defeated": "The spirits were willing, but the flesh was weak...",
+        "startIntroPart1": "Board Minutes
+Management notes continued disruption among several state partners. Procurement agencies cannot maintain distribution corridors, and outstanding arrears now exceed two fiscal years. Citrarii Trust will prioritise solvent private clients while scaling internal security divisions to safeguard supply in the absence of effective state authority.",
+"startIntroPart2": "Citrarii Group. Supply Without Borders."
+	// "neutralHello": "",
+        // "hateHello": "",
+        // "tradeRequest": "",
+
+        "outerColor": [255, 177, 0],
+	"innerColor": [100, 120, 60],
+        "uniqueName": "Supply Without Borders",
+        "uniques": [	"[+2 Food, +2 Gold] [in all cities]",
+			"[+50]% [Food] from City-States",
+			"Allied City-States provide [Food] equal to [25]% of what they produce for themselves"
+
+			"Starts with [Botany]",
+			"Starts with [Trade]",
+			"Starts with [Writing]",
+			"[-2 Science] [in all cities] <before discovering [Education]>",
+			"Starts with [Monopoly] adopted",
+
+        ],
+        "cities": [
+            "Triforix",            
+          ]
+    }
+]
