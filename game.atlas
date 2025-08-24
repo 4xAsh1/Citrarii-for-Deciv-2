@@ -18,7 +18,7 @@ BuildingIcons/Fieldlog
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Hothouse
+BuildingIcons/FoodWorks
   rotate: false
   xy: 420, 40
   size: 200, 200
@@ -39,7 +39,7 @@ BuildingIcons/Proviant
   orig: 50, 50
   offset: 0, 0
   index: -1
-BuildingIcons/Scobworks
+BuildingIcons/ScobWorks
   rotate: false
   xy: 836, 40
   size: 200, 200
@@ -48,7 +48,7 @@ BuildingIcons/Scobworks
   index: -1
 ImprovementIcons/Plantation
   rotate: false
-  xy: 1152, 140
+  xy: 1260, 140
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -72,5 +72,12 @@ TileSets/FantasyHex/Tiles/Plantation
   xy: 4, 4
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcon/Great Farmer
+  rotate: false
+  xy: 1152, 140
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1

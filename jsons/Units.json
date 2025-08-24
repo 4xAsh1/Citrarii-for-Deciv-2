@@ -1,0 +1,15 @@
+[
+	{
+		"name": "Agronomist",
+		"uniqueTo": "Citrarii Group",
+		"replaces": "Great Farmer",
+		"unitType": "Civilian",
+		"uniques": [
+	"[+2] population [in this city] <by consuming this unit> <in [City center] tiles>",
+	"Can instantly construct a [Plantation] improvement <by consuming this unit>",
+	"Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence"
+	"Great Person - [Food]",
+	"Uncapturable", "Unbuildable"],
+	"movement": 2
+	}
+]

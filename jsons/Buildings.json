@@ -1,15 +1,18 @@
 [
     // Capital Uniques
     {
-        "name": "Citrarii",
+        "name": "Hypogeal",
         "isWonder": true,
-        "uniqueTo": "Citrarii",
-        "cost": 1,
-	"cityHealth": 50,
-		"food": 2,
-		"culture": 5,
-		"happiness": 2
-    },
+        "uniqueTo": "Citrarii Group",
+        "cost": 0,
+	"food": 1,
+	"gold": 1
+	"uniques": [
+			"[10]% Food is carried over after population increases [in this city]",
+			"Gain a free [Proviant] [in this city]",
+			"Gain a free [Cold Store] [in this city]",
+			"Automatically built in all cities where it is buildable"],
+	},
 
     //Uniques
 	{
@@ -27,8 +30,7 @@
 			"[+10]% growth [in this city] <with [Citrus]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
-			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>"
-		]
+			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>"],
 	},
 	{
 		"name": "Hothouse",
@@ -42,7 +44,7 @@
 		"requiredTech": "Construction",
 		"uniques": [
 			"[-1 Happiness] per [3] population [in this city]",
-			"[+1 Food] per [3] population [in this city]",
+			"[+1 Food] per [4] population [in this city]",
 			"Consumes [1] [Slaves]",
 			"Only available <with [Slaves]>"],
 	},
@@ -51,42 +53,43 @@
 		"replaces": "Library",
 		"uniqueTo": "Citrarii Group",
 		"food": 1,
-		"science": 1,
 		"requiredTech": "Writing",
 		"uniques": [
-			"[+1 Science, +1 Food] [in this city] <when above [0] [Power]>",
 			"[+1 Science] per [2] population [in this city]",
-			"[+2 Science] from [Books] tiles [in this city]"],	
+			"[+1 Science, +1 Food] [in this city] <when above [0] [Power]>",
+			"[+2 Science] from [Books] tiles [in this city]"],
 	},
 	{
 		"name": "Agronotech",
 		"replaces": "University",
 		"uniqueTo": "Citrarii Group",
 		"food": 2,
-		"maintenance": 0,
+		"maintenance": 1,
 		"hurryCostModifier": 33,
 		"requiredTech": "Education",
 		"percentStatBonus": {"science": 15, "food": 15 },
 		"specialistSlots": {"Scientist": 1, "Farmer": 1 },
 		"uniques": [
-			"[+1 Science, +1 Food] from [Food source] tiles [in this city]",
-			"[+1 Science, +1 Food] [in this city] <when above [0] [Power]>",
+			"[+1 Food, +1 Science] from every [Tree plantation] tiles [in this city]",
+			"[+1 Food, +1 Science] from every [Farm] tiles [in this city]",
+			"[+1 Food, +1 Science] from every [Pasture] tiles [in this city]",
 			"Only available <in cities with a [Library]>"],
 		
 	},
 	{
-		"name": "Scobworks",
+		"name": "ScobWorks",
 		"replaces": "Distillery",
 		"uniqueTo": "Citrarii Group",
 		"happiness": 2,
 		"culture": 1,
 		"maintenance": 1,
-		"requiredNearbyImprovedResources": ["Grain", "Tubers", "Maize"],
+		"requiredNearbyImprovedResources": ["Grain", "Tubers"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Chemistry",
-		"uniques": ["Provides [1] [Alcohol]",
+		"uniques": [
+			"Provides [1] [Alcohol]",
 			"[+5]% growth [in this city]"
-			"[-5]% Unhappiness from [Specialists] [in this city]"],
+			"[-10]% Unhappiness from [Specialists] [in this city]"],
 		
 	},
 	{
@@ -98,27 +101,27 @@
 		"requiredTech": "Botany",
 		"specialistSlots": {"Farmer": 1},
 		"uniques": [
+			"[+1 Food] from [Maize] tiles [in this city]",
 			"[+1 Food] from [Grain] tiles [in this city]",
 			"[+1 Food] from [Tubers] tiles [in this city]",
-			"[+1 Food] from [Maize] tiles [in this city]",
 			"[+1 Food] from [Cactus] tiles [in this city]",
+			"[+1 Food] from [Tree plantation] tiles [in this city]",
 			"[+1 Food, +1 Gold] from [Plantation] tiles [in this city]",
-			"[+1 Gold, +1 Food] from every [Farmer] <in this city> <after discovering [Currency]>",
-			"[+1 Food] [in this city] <with [Exotic Seeds]>"
-		],
+			"[+1 Gold, +1 Food] from every [Farmer] <after discovering [Currency]>",
+			"[+1 Food] [in this city] <with [Exotic Seeds]>"],
 		
 	},
 	{
 		"name": "FoodWorks",
 		"replaces": "Market",
 		"uniqueTo": "Citrarii Group",
-		"specialistSlots": {"Merchant": 2},
+		"specialistSlots": {"Merchant": 1, "Farmer": 1},
 		"gold": 2,
 		"food": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
-		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]",
-			"[+1 Gold] from [Food source] tiles [in this city]"
-		]
+		"uniques": [
+		"[+1 Gold] from [Food source] tiles [in this city]"]
 	}
-]
+
+] 

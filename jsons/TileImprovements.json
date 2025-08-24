@@ -1,15 +1,16 @@
 [
 	{
 		"name": "Plantation",
-		"turnsToBuild": 6,
-		"food": 4,
+		"food": 3,
 		"gold": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
+		"Great Improvement",
 		"[+1 Food] <after discovering [Botany]>",
 		"[+1 Food] <after discovering [Ecology]>",
 		"[+1 Food] <after discovering [Hydroponics]>",
 		"[+1 Production, +1 Food] <after discovering [Genetics]>",
+		"[+1 Production] for each adjacent [Tree plantation]",
 		"Provides [1] [Citrus]",
 		"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
